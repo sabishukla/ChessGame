@@ -1,11 +1,20 @@
+/* html{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+} */
+
 html,
 body {
     width: 100%;
     height: 100%;
     padding: 0;
+    padding-top: 50px;
     margin: 0;
     font-family: sans-serif;
+    background: rgba(0, 81, 128, 0.3) /* Green background with 30% opacity */
 }
+
 
 div * {
     padding: 0;
@@ -378,3 +387,7 @@ div * {
 }
 
 
+
+/* .stylllo{
+    border: #000;
+} */
